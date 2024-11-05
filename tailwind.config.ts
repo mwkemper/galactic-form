@@ -13,6 +13,9 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      bebasNeue: 'Bebas Neue',
+    }
   },
   plugins: [],
 };
