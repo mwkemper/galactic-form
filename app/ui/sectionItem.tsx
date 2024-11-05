@@ -13,7 +13,7 @@ interface SectionItemProps {
 function SectionItem({ className, children, id }: SectionItemProps) {
   const [isChecked, setIsChecked] = useState<boolean>(false);
 
-  const handleChange = (e) => {
+  const handleChange = (e: { target: { value: string } }) => {
     setIsChecked(e?.target?.value === '1');
   };
 
